@@ -14,6 +14,8 @@ keywords = ["zkSNARKs", "cryptography", "proofs"]
 
 [dependencies]
 anyhow = "1.0.65"
+arecibo = "0.1.1"
+bellpepper-core = "0.4.0"
 bellperson = { version = "0.25", default-features = false }
 byteorder = "1.4.3"
 ff = { version = "0.13", features = ["derive"]}
